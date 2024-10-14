@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1825" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1369" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="FH-egheK_HizLAxa6WL1-88" value="Present Thesis" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="20" y="508" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FH-egheK_HizLAxa6WL1-95" value="Submit final thesis (Changes state to &lt;b&gt;SUBMITTED&lt;/b&gt;)" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-2" vertex="1">
+        <mxCell id="FH-egheK_HizLAxa6WL1-95" value="Submit final thesis (Changes state to &lt;b&gt;Submitted&lt;/b&gt;)" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="20" y="715" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="Advisor" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
@@ -40,13 +40,13 @@
         <mxCell id="FH-egheK_HizLAxa6WL1-80" value="Sufficient" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="40" y="255" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FH-egheK_HizLAxa6WL1-84" value="Change Thesis State to &lt;b&gt;WRITING&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="FH-egheK_HizLAxa6WL1-84" value="Change Thesis State to &lt;b&gt;Writing&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="20" y="392" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FH-egheK_HizLAxa6WL1-92" value="Give Feedback" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="20" y="594" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FH-egheK_HizLAxa6WL1-100" value="Write assessment (Changes state to &lt;b&gt;ASSESSED&lt;/b&gt;)" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="FH-egheK_HizLAxa6WL1-100" value="Write assessment (Changes state to &lt;b&gt;Assessed&lt;/b&gt;)" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="20" y="715" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Supervisor" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
@@ -57,16 +57,16 @@
             <mxPoint x="80" y="819" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FH-egheK_HizLAxa6WL1-102" value="Submit final grade&lt;div&gt;(Changes state to &lt;b&gt;GRADED&lt;/b&gt;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="FH-egheK_HizLAxa6WL1-102" value="Submit final grade&lt;div&gt;(Changes state to &lt;b&gt;Graded&lt;/b&gt;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="20" y="715" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FH-egheK_HizLAxa6WL1-104" value="Submit grade to university (Changes state to &lt;b&gt;FINISHED&lt;/b&gt;)" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="FH-egheK_HizLAxa6WL1-104" value="Submit grade to university (Changes state to &lt;b&gt;Finished&lt;/b&gt;)" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="20" y="827" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="ThesisTrack" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="480" y="20" width="160" height="900" as="geometry" />
         </mxCell>
-        <mxCell id="FH-egheK_HizLAxa6WL1-71" value="Create thesis with state &lt;b&gt;PROPOSAL&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-5" vertex="1">
+        <mxCell id="FH-egheK_HizLAxa6WL1-71" value="Create thesis with state &lt;b&gt;Proposal&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="20" y="36" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FH-egheK_HizLAxa6WL1-90" value="Invite students to&lt;div&gt;presentation&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-5" vertex="1">
